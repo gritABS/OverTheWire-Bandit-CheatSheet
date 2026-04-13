@@ -1,1 +1,114 @@
 
+🚩 Level 4
+
+    Type ls to see the contents.
+
+    A directory named inhere appears. If you type cat inhere, you get a message: cat: inhere: Is a directory.
+
+    Go directly into the directory using cd inhere.
+
+    Use ls -a to display all files, including hidden ones.
+
+    Use file ./* to check what types of files are there.
+
+    Find the file that is identified as ASCII text and read it using cat.
+
+Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+🚩 Level 5
+
+    Use ls and enter the directory with cd inhere.
+
+    Search for a file that is exactly 1033 bytes in size using find . -size 1033c.
+
+    Once the file is located, read its content using the cat command.
+
+Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+
+🚩 Level 6
+
+    Start with ls -a to check for hidden files.
+
+    Move up to the parent directory using cd "..".
+
+    Search for a specific file owned by user bandit7, group bandit6, and 33 bytes in size.
+
+    Use find / -user bandit7 -group bandit6 -size 33c 2>/dev/null to locate it (redirecting errors to hide "Permission Denied" messages).
+
+    Read the located file using cat.
+
+Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+
+
+Jasne, przygotowałem opisy wszystkich poziomów w jednolitym stylu (takim jak Twój poziom 4), w języku angielskim i bez logów, żebyś mógł je sam uzupełnić.
+
+Oto gotowy tekst:
+🚩 Level 4
+
+    Type ls to see the contents.
+
+    A directory named inhere appears. If you type cat inhere, you get a message: cat: inhere: Is a directory.
+
+    Go directly into the directory using cd inhere.
+
+    Use ls -a to display all files, including hidden ones.
+
+    Use file ./* to check what types of files are there.
+
+    Find the file that is identified as ASCII text and read it using cat.
+
+Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+🚩 Level 5
+
+    Use ls and enter the directory with cd inhere.
+
+    Search for a file that is exactly 1033 bytes in size using find . -size 1033c.
+
+    Once the file is located, read its content using the cat command.
+
+**Password:** 'HWasnPhtq9AVKe0dmk45nxy20cvUa6EG'
+
+**LOGS:**
+```bash
+bandit5@bandit:~$ cd inhere
+bandit5@bandit:~/inhere$ find . -size 1033c
+./maybehere07/.file2
+bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+
+
+🚩 Level 6
+
+    Start with ls -a to check for hidden files.
+
+    Move up to the parent directory using cd "..".
+
+    Search for a specific file owned by user bandit7, group bandit6, and 33 bytes in size.
+
+    Use find / -user bandit7 -group bandit6 -size 33c 2>/dev/null to locate it (redirecting errors to hide "Permission Denied" messages).
+
+    Read the located file using cat.
+
+Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+🚩 Level 7
+
+    The password is stored in the data.txt file next to the word "millionth".
+
+    Use cat data.txt | grep "millionth" to filter the content and find the specific line.
+
+Password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+
+🚩 Level 8
+
+    The password is the only line of text that occurs exactly once in the data.txt file.
+
+    Use sort data.txt | uniq -u to sort the lines and filter out all duplicates.
+
+Password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+
+
