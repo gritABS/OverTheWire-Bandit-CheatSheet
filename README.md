@@ -1,1 +1,1 @@
-# OverTheWire-Bandit-CheatSheet
+# OverTheWire
