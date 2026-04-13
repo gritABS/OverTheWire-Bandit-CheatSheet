@@ -25,6 +25,12 @@ Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
 Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
+**LOGS:**
+
+```bash
+bandit5@bandit:~$ cd inhere
+bandit5@bandit:~/inhere$ find . -size 1033c
+./maybehere07/.file2
 
 🚩 Level 6
 
@@ -42,41 +48,8 @@ Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 
 
-Jasne, przygotowałem opisy wszystkich poziomów w jednolitym stylu (takim jak Twój poziom 4), w języku angielskim i bez logów, żebyś mógł je sam uzupełnić.
 
-Oto gotowy tekst:
-🚩 Level 4
 
-    Type ls to see the contents.
-
-    A directory named inhere appears. If you type cat inhere, you get a message: cat: inhere: Is a directory.
-
-    Go directly into the directory using cd inhere.
-
-    Use ls -a to display all files, including hidden ones.
-
-    Use file ./* to check what types of files are there.
-
-    Find the file that is identified as ASCII text and read it using cat.
-
-Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
-🚩 Level 5
-
-    Use ls and enter the directory with cd inhere.
-
-    Search for a file that is exactly 1033 bytes in size using find . -size 1033c.
-
-    Once the file is located, read its content using the cat command.
-
-**Password:** 'HWasnPhtq9AVKe0dmk45nxy20cvUa6EG'
-
-**LOGS:**
-```bash
-bandit5@bandit:~$ cd inhere
-bandit5@bandit:~/inhere$ find . -size 1033c
-./maybehere07/.file2
-bandit5@bandit:~/inhere$ cat ./maybehere07/.file2
-HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
 
 
