@@ -25,6 +25,10 @@ Przed użyciem “cat” warto użyć file, poniewaz plik moze byc skompresowany
 
     file ./* - jesli jest wiele plikow wpisanie tej komendy pokaze CZYM sa te pliki
 
+
+
+"pwd" - Print Working Directory, shows path to the current folder.
+
 🔍 (Searching)
 
 “find”
