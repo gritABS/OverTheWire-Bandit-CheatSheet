@@ -33,6 +33,9 @@ Find out what user we are currently logged in as.
 
 "pwd" - Print Working Directory, shows path to the current folder.
 
+"su"
+Switches user but folders stay the same, "su -l" switches user and folders.
+
 🔍 (Searching)
 
 “find”
