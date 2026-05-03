@@ -25,7 +25,8 @@ Przed użyciem “cat” warto użyć file, poniewaz plik moze byc skompresowany
 
     file ./* - jesli jest wiele plikow wpisanie tej komendy pokaze CZYM sa te pliki
 
-
+"echo"
+Output any text that we provide.
 
 "pwd" - Print Working Directory, shows path to the current folder.
 
