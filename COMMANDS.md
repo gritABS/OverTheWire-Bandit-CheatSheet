@@ -64,6 +64,7 @@ Czytnik, narzedzie do zagladania do srodku pliku, uzywa sie gdy wie sie, ze w da
 “grep” - shows ONLY lines that mention word that I am looking for.
 
     “cat data.txt | grep "millionth"”
+    "grep -R" - recursive potion, search all files in the current directory looking for some word.
 
 “tr” - translate, changing some characters for other ones, for example to change a for A and z for Z:
 
@@ -113,3 +114,15 @@ Used to separate things for example:
 
     “cd var/lib” tells terminal to enter var first then lib
     Used to represent the root directory (top level of the system).
+
+"&"
+This operator allows you to run commands in the background of your terminal.
+
+"&&"
+This operator allows you to combine multiple commands together in one line of your terminal.
+
+">"
+This operator is a redirector - meaning that we can take the output from a command (such as using cat to output a file) and direct it elsewhere.
+
+">>"	
+This operator does the same function of the > operator but appends the output rather than replacing (meaning nothing is overwritten).
