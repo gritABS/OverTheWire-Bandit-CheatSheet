@@ -28,6 +28,9 @@ Przed użyciem “cat” warto użyć file, poniewaz plik moze byc skompresowany
 "echo"
 Output any text that we provide.
 
+"whoami"
+Find out what user we are currently logged in as.
+
 "pwd" - Print Working Directory, shows path to the current folder.
 
 🔍 (Searching)
