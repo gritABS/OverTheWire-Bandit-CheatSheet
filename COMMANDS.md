@@ -93,6 +93,32 @@ Also you can add size of the file:
 "nano: 
     makes file, also can edit it with many options. 
 
+### ⚙️ Processes
+
+"ps"
+    Shows processes in a current session.
+
+"ps aux" 
+    shows all processes (other users too)
+
+"top" 
+    shows processes in real time.
+
+"kill" 
+    using "kill "PID number"" we can turn off some programs that (for example) are not working correctly.
+
+"systemctl":
+   Menages system services and condition of them.
+    
+    stop
+    start
+    enable
+    disable
+    status
+        
+"Fg"
+    Foreground, brings the most recent background job to the foreground.
+    
 ### 🌐 (Networking)
 
 "wget"
